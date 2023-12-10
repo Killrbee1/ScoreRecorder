@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<style>
+table, th, td {
+  border:1px solid black;
+}
+</style>
+<html lang="en">
+
+  <head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <center>
+    <title>Home</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+    crossorigin="anonymous"></script>
+  </head>
+
+  
+  <body>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Journalsim</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="page2.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="page3.html">Contact</a>
+          <li class="nav-item">
+            <a class="nav-link" href="page4.html">Calculator</a>
+          </li>
+        </li>
+    </div>
+  </div>
+</nav>
+    
+    <main>
+      <h1>Home</h1>
+      <h2 class="med" >Hello Welcome to this journalistic web page</h2>
+    </center>
+   
+  </main>
+   
+  
+  <div class="container"
+  <section>
+      <h3 class="sectionheaderstyle"> This is a table of past critically acclaimed video games</h3>
+ 
+
+        <div class="table-responsive">
+      <table class="table table-striped table-dark table-bordered border-light" >
+          <tr>
+            <th style="width:20%"> Cover Art</th>
+            <th>Title</th>
+            <th>Developer</th>
+          </tr>
+          <tr>
+          <td><img src="https://thumbnails.pcgamingwiki.com/c/c5/Borderlands_2_-_cover.jpg/300px-Borderlands_2_-_cover.jpg"style="Width:100%" alt="Masked Pyscho using fingerguns"</td>
+          <td>Borderlands 2</td>
+          <td>Gearbox Software</td>
+        </tr>
+        <tr>
+          <td><img src="https://image.api.playstation.com/vulcan/img/rnd/202010/2614/DbHk1vfm0crso6MJZevAqfLA.png" style="Width:100%" alt="Mysterious man looking into a foggy street with gun and bloodied saw in hand"></td>
+          <td>Bloodborne</td>
+          <td>Fromsoftware</td>
+        </tr>
+        <tr>
+          <td><img src="https://upload.wikimedia.org/wikipedia/en/b/b6/Ghost_of_Tsushima.jpg" style="Width:100%" alt="Main character Jin contemplating putting on his mask in a field with title"</td>
+          <td> Ghost of Tsushima</td>
+          <td>Sucker Punch Productions</td>
+      </table>
+        </div>
+        <footer> All artwork belongs to their respective owners</footer>
+    </section>
+  </div>
+  <div class="container text-center">
+  <article id = "intro">
+    <h4>Introduction</h4>
+<p>Modern gaming has undergone a profound transformation in recent years, driven by rapid technological advancements and shifting player preferences. The lines between reality and virtual worlds have blurred as graphics have reached stunning levels of realism, and immersive experiences like virtual reality (VR) and augmented reality (AR) have become more accessible. Online multiplayer gaming has exploded, creating vast virtual communities where players from across the globe can connect and compete. Esports, once a niche interest, has evolved into a mainstream phenomenon, with professional gamers and massive tournaments drawing huge audiences. Furthermore, the gaming industry has embraced diverse storytelling, addressing social issues and offering players thought-provoking narratives. With the advent of cloud gaming services and the potential of emerging technologies like blockchain and artificial intelligence, the future of modern gaming promises even more innovation, interactivity, and excitement for players of all ages.
+  </p>
+</article>
+<button id = "curious" class="btn btn-dark"> Read More/Hide </button>
+  </div>
+<script type="text/javascript">
+$(document).ready(function(){
+  $('#curious').click(function (){
+    $('#intro').toggle();
+  });
+});
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+
+</html>
+
